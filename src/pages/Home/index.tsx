@@ -18,8 +18,6 @@ function Index() {
   const featured = useSelector((store: RootState) => store.moves.featured);
   const tendingNow = useSelector((store: RootState) => store.moves.tendingNow);
 
-  console.log(tendingNow);
-
   const [loading, setLoading] = useState<boolean>(true);
   const [videoPlay, setVideoPlay] = useState<boolean>(false);
 
